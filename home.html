@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="fi" xml:lang="fi" id="course-page">
+<head>
+    <title>Kurssi: HIUKK.RYYBS.0209-2021-2022-1 Signaalinkäsittelyn perusteet (Luento-opetus)</title>
+    <link rel="shortcut icon" href="https://moodle.tuni.fi/pluginfile.php/1/theme_maisteriboostsubtheme/favicon/0/favicon%20%288%29.ico" />
+    <meta name="apple-itunes-app" content="app-id=633359593, app-argument=https://moodle.tuni.fi/course/view.php?id=11427"/><link rel="manifest" href="https://moodle.tuni.fi/admin/tool/mobile/mobile.webmanifest.php" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Kurssi: HIUKK.RYYBS.0209-2021-2022-1 Signaalinkäsittelyn perusteet (Luento-opetus)" />
+<link rel="stylesheet" type="text/css" href="https://moodle.tuni.fi/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.tuni.fi/theme/styles.php/maisteriboostsubtheme/1629705365_1625623916/all" />
+
+<meta name="moodle-validation" content="d6f06d00999afe4d79920e7ee9d957ae">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-course-view-weeks" class="format-weeks  path-course path-course-view chrome dir-ltr lang-fi yui-skin-sam yui3-skin-sam moodle-tuni-fi pagelayout-course course-11427 context-739541 category-8 ">
+
+<div id="page-wrapper" >
+
+    <div class="course-banner-image"
+    style="background-image: url('https://moodle.tuni.fi/pluginfile.php/739541/course/overviewfiles/dreamstime_xxl_25838319.jpg');
+    "
+    >
+</div>
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Siirry pääsisältöön</a>
+</div><script src="https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/polyfills/polyfill.js"></script>
+<script src="https://moodle.tuni.fi/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+    <nav aria-label="Sivuston navigointi" class="fixed-top navbar navbar-light navbar-expand moodle-has-zindex hasbuttons">
+            <div data-region="drawer-toggle">
+                <button class="hamburger d-md-none"
+                        id="hamburger"
+                        title="Side navigation button"
+                        aria-label="Side navigation button"
+                        aria-expanded="false"
+                        aria-controls="nav-drawer"
+                        data-action="toggle-drawer"
+                        data-side="left"
+                        data-preference="drawer-open-nav">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+            </div>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="navbar-brand">
+                    <img class="site-logo" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/logo" alt="Tampereen yliopisto" title="Tampereen yliopisto">
+            </a>
+    
+            <a class="navbar-icons" alt="Työpöytä" title="Työpöytä" href="" id="home-icon">
+    <svg aria-hidden="true" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-18" role="img" aria-label="Home icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">  
+      <path fill="currentColor" d="M488 312.7V456c0 13.3-10.7 24-24 24H348c-6.6 0-12-5.4-12-12V356c0-6.6-5.4-12-12-12h-72c-6.6 0-12 5.4-12 12v112c0 6.6-5.4 12-12 12H112c-13.3 0-24-10.7-24-24V312.7c0-3.6 1.6-7 4.4-9.3l188-154.8c4.4-3.6 10.8-3.6 15.3 0l188 154.8c2.7 2.3 4.3 5.7 4.3 9.3zm83.6-60.9L488 182.9V44.4c0-6.6-5.4-12-12-12h-56c-6.6 0-12 5.4-12 12V117l-89.5-73.7c-17.7-14.6-43.3-14.6-61 0L4.4 251.8c-5.1 4.2-5.8 11.8-1.6 16.9l25.5 31c4.2 5.1 11.8 5.8 16.9 1.6l235.2-193.7c4.4-3.6 10.8-3.6 15.3 0l235.2 193.7c5.1 4.2 12.7 3.5 16.9-1.6l25.5-31c4.2-5.2 3.4-12.7-1.7-16.9z"></path>
+    </svg>
+    <span class="d-none"></span>
+</a><div class="dropdown">
+  <div id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  	<div class="navbar-icons" alt="Minun kurssini" title="Minun kurssini">
+      <svg xmlns="http://www.w3.org/2000/svg"  data-prefix="fas" data-icon="tachometer-alt" class="svg-inline--fa fa-tachometer-alt fa-w-18" viewBox="0 0 576 512">
+        <path fill="#fff" d="M288 32C128.94 32 0 160.94 0 320c0 52.8 14.25 102.26 39.06 144.8 5.61 9.62 16.3 15.2 27.44 15.2h443c11.14 0 21.83-5.58 27.44-15.2C561.75 422.26 576 372.8 576 320c0-159.06-128.94-288-288-288zm0 64c14.71 0 26.58 10.13 30.32 23.65-1.11 2.26-2.64 4.23-3.45 6.67l-9.22 27.67c-5.13 3.49-10.97 6.01-17.64 6.01-17.67 0-32-14.33-32-32S270.33 96 288 96zM96 384c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm48-160c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm246.77-72.41l-61.33 184C343.13 347.33 352 364.54 352 384c0 11.72-3.38 22.55-8.88 32H232.88c-5.5-9.45-8.88-20.28-8.88-32 0-33.94 26.5-61.43 59.9-63.59l61.34-184.01c4.17-12.56 17.73-19.45 30.36-15.17 12.57 4.19 19.35 17.79 15.17 30.36zm14.66 57.2l15.52-46.55c3.47-1.29 7.13-2.23 11.05-2.23 17.67 0 32 14.33 32 32s-14.33 32-32 32c-11.38-.01-20.89-6.28-26.57-15.22zM480 384c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z"/>
+      </svg>
+  	</div>
+    <span class="d-none"></span>
+  </div>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        AUTEK.RYYBS.0208-2021-2022 Autekin Aakkoset 1</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        YMPÄR.RYYBS.0207-2021-2022 Ykin Yllätykset </a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        BIO.RYYBS.0206-2021-2022 Bion Banaanit</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        SKELL.RYYBS.404-2021-2022 Sähkökellarin Killat</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        PERSE.RYYBS.192.168.1.1-2021-2022 Perseet Perseellä</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=b3Ety7hbPmM">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        KORTTI.PAKKA.365.0-3000 Tapio Rautavaara - Korttipakka</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        Turnitin (Palauta Kandisi)</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <i class="icon fa fa-graduation-cap fa-fw "></i>
+        
+        TAU Fysiikan laboratorioyöt - Joka yö</a>
+    
+  </div>
+</div>
+            <a class="navbar-icons" alt="Takaisin kurssin etusivulle" title="Takaisin kurssin etusivulle" href="" id="course-icon">
+    <svg version='1.1' id='Layer_1' role='img' aria-label='back to course icon' class='fa-course' xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='20px' height='20px'
+    viewBox='0 0 20 20' enable-background='new 0 0 20 20' xml:space='preserve'>
+
+    <path fill='#fff' d='M10.908,4.569c0,0,0.668-1.413,2.65-1.413c1.414,0,2.424,1.13,3.358,1.337
+    c1.17,0.258,2.586,0.076,2.586,0.076v12.212c0,0-1.416,0.182-2.586-0.076c-0.938-0.208-1.944-1.338-3.358-1.338
+    c-1.982,0-2.65,1.414-2.65,1.414V4.569z'/>
+    <path fill='#fff' d='M9.143,10.55H6.805v2.585L3.197,9.53l3.607-3.608v2.586h2.338V4.569c0,0-0.668-1.413-2.652-1.413
+    c-1.413,0-2.422,1.13-3.363,1.337C1.956,4.751,0.542,4.569,0.542,4.569v12.212c0,0,1.414,0.182,2.585-0.076
+    c0.941-0.208,1.95-1.338,3.363-1.338c1.984,0,2.652,1.414,2.652,1.414L9.143,10.55L9.143,10.55z'/>
+    </svg>
+    <span class="d-none">Takaisin kurssin etusivulle</span>
+</a>
+            <!-- Visibility via settings -->
+            
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <!-- custom_menu -->
+                <div class="d-none d-lg-flex custom_menu">
+                    <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-612749696e84a61274969235266" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" title="lang" aria-controls="drop-down-menu-612749696e84a61274969235266">
+        <img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/fi" />
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-612749696e84a61274969235266" aria-labelledby="drop-down-612749696e84a61274969235266">
+                <a class="dropdown-item" role="menuitem" href="" title="Deutsch ‎(de)‎"><img style="max-width: 20px;" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/de" /> Deutsch ‎(de)‎</a>
+                <a class="dropdown-item" role="menuitem" href="" title="English ‎(en)‎"><img style="max-width: 20px;" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/gb" /> English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="" title="Español - Internacional ‎(es)‎"><img style="max-width: 20px;" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/es" /> Español - Internacional ‎(es)‎</a>
+                <a class="dropdown-item" role="menuitem" href="" title="Finlandssvenska ‎(sv_fi)‎"><img style="max-width: 20px;" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/se" /> Finlandssvenska ‎(sv_fi)‎</a>
+                <a class="dropdown-item" role="menuitem" href="" title="Français ‎(fr)‎"><img style="max-width: 20px;" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/fr" /> Français ‎(fr)‎</a>
+                <a class="dropdown-item" role="menuitem" href="" title="Suomi ‎(fi)‎"><img style="max-width: 20px;" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/fi" /> Suomi ‎(fi)‎</a>
+    </div>
+</li>
+                    
+                    
+                </div>
+                <li class="d-none d-lg-block">
+                    
+                </li>
+                <li class="d-none d-md-block">
+                    <form action='' id='navbar-course-search' method='get' class='form-inline text-center mb-0'>
+                        <input type='text' aria-label="Enter search text" name='search' class='form-control' size="15" id='coursesearchbox' placeholder="Etsi Pääsiäismunia">
+                        <button type='submit' class='btn course-search-btn icon fa fa-search fa-fw'>
+                            <span class="d-none">Hae</span>
+                        </button>
+                    </form>
+                </li>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item popovers">
+                    <div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="15114"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-612749696ff4761274969235267"
+        aria-haspopup="true"
+        aria-label="Näytä ilmoitusikkuna ilman uusia ilmoituksia"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw "  title="Avaa ilmoitusvalikko" aria-label="Avaa ilmoitusvalikko"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="0 uutta ilmoitusta">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-612749696ff4761274969235267"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Ilmoitusikkuna"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Ilmoitukset</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Merkitse kaikki luetuiksi"
+           data-action="mark-all-read"
+           role="button"
+           aria-label="Merkitse kaikki luetuiksi">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true"  ></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+        </a>
+        <a href="https://moodle.tuni.fi/message/notificationpreferences.php?userid=15114"
+           title="Ilmoituksien asetukset"
+           aria-label="Ilmoituksien asetukset">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true"  ></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Sinulla ei ole ilmoituksia</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle.tuni.fi/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Näytä kaikki</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed" data-region="popover-region-messages">
+    <a id="message-drawer-toggle-6127496971cf961274969235268" class="nav-link d-inline-block popover-region-toggle position-relative" href="#"
+            role="button">
+        <i class="icon fa fa-comment fa-fw "  title="Avaa viestivalikko" aria-label="Avaa viestivalikko"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="0 uutta keskustelua">0</div>
+    </a>
+    <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-2" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-2-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-2" aria-label="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-2-menu">
+                            
+                            <span class="userbutton"><span class="avatars"><span class="avatar current"><img src="https://moodle.tuni.fi/pluginfile.php/155653/user/icon/maisteriboostsubtheme/f2?rev=9566324" class="userpicture" width="35" height="35" alt="" /alt='Avatar' aria-label='Käyttäjävalikko'</span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-2-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-2" role="menu" data-align="tr-br">
+                                            <div class="dropdown-item">
+
+
+
+Samu Sirkka
+</div>
+                    <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                <i class="icon fa fa-tachometer fa-fw "  title="Työpöytä" aria-label="Työpöytä"></i>
+                                <span class="menu-action-text" id="actionmenuaction-1">Työpöytä</span>
+                        </a>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                <i class="icon fa fa-user fa-fw "  title="Käyttäjätiedot" aria-label="Käyttäjätiedot"></i>
+                                <span class="menu-action-text" id="actionmenuaction-2">Käyttäjätiedot</span>
+                        </a>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-3">
+                                <i class="icon fa fa-wrench fa-fw "  title="Asetukset" aria-label="Asetukset"></i>
+                                <span class="menu-action-text" id="actionmenuaction-3">Asetukset</span>
+                        </a>
+                    <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-4">
+                                <i class="icon fa fa-table fa-fw "  title="Arvioinnit" aria-label="Arvioinnit"></i>
+                                <span class="menu-action-text" id="actionmenuaction-4">Arvioinnit</span>
+                        </a>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-5">
+                                <i class="icon fa fa-comment fa-fw "  title="Viestit" aria-label="Viestit"></i>
+                                <span class="menu-action-text" id="actionmenuaction-5">Viestit</span>
+                        </a>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="calendar,calendar" aria-labelledby="actionmenuaction-6">
+                                <i class="icon fa fa-table fa-fw "  title="Kalenteri" aria-label="Kalenteri"></i>
+                                <span class="menu-action-text" id="actionmenuaction-6">Kalenteri</span>
+                        </a>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="privatefiles,moodle" aria-labelledby="actionmenuaction-7">
+                                <i class="icon fa fa-user fa-fw "  title="Yksityiset tiedostot" aria-label="Yksityiset tiedostot"></i>
+                                <span class="menu-action-text" id="actionmenuaction-7">Yksityiset tiedostot</span>
+                        </a>
+                    <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                    <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                                                <a href="" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-8">
+                                <i class="icon fa fa-sign-out fa-fw "  title="Kirjaudu ulos" aria-label="Kirjaudu ulos"></i>
+                                <span class="menu-action-text" id="actionmenuaction-8">Kirjaudu ulos</span>
+                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+                <div class="mobile-search d-block d-md-none">
+                    <form action='https://moodle.tuni.fi/course/search.php' method='get'>
+                        <input id="search" type='text' name='search' autocomplete="off" class="search-input" placeholder="Etsi kursseja">
+                        <input type="submit" style="display:none;" />
+                        <label for="search" class="d-none">Hae</label>
+                        <div class="search"></div>
+                    </form>
+                </div>
+    </nav>
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-flex align-items-center">
+                    <div class="mr-auto">
+                    <div class="page-context-header"><div class="page-header-headings"><h1>HIUKK.RYYBS.0209 Hiukkasen Etäsitseillä</h1></div></div>
+                    </div>
+                    <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main" class="has-blocks mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="p-b-2">
+
+<div id="page-navbar">
+    <nav aria-label="Navigointipalkki">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href=""  >Työpöytä</a>
+                </li>
+        
+                <li class="breadcrumb-item">Omat kurssini</li>
+        
+                <li class="breadcrumb-item">
+                    <a href="" aria-current="page" title="HIUKK.RYYBS">HIUKK.RYYBS.0209 Hiukkasen Setäsitseillä</a>
+                </li>
+        </ol>
+</nav>
+</div>
+</div>
+                            <section id="block-region-content"  class="block-region yui3-dd-drop" data-blockregion="content" data-droptarget="1">
+                            </section>
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main"><span id="maincontent"></span><form action="." method="get"><div><input type="hidden" id="completion_dynamic_change" name="completion_dynamic_change" value="0" /></div></form><div class="course-content"><div id="completionprogressid" class="completionprogress">Oma edistymiseni<a class="btn btn-link p-a-0" 
+    role="button"
+    data-container="body" 
+    data-toggle="popover"
+    data-placement="top" 
+    data-content="<div class='popover-close'><a href='#'><i class='fa fa-close fa-fw'></i></a></div> &lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;Opettajasi on ottanut kurssialueella käyttöön suoritusten seurannan. Valittujen aktiviteettien vieressä on valintaruutu, joka osoittaa sinulle oletko tehnyt sen vai et.&lt;/p&gt;
+
+&lt;p&gt;Jos valintaruudussa on katkoviivaiset reunat, rasti tulee siihen automaattisesti kun aktiveetti on opettajan asettamien vaatimusten mukaan valmis.&lt;/p&gt;
+
+&lt;p&gt;Jos valintaruudun reunat ovat kiinteät, voit rastittaa sen kun mielestäsi ko. kohde on valmis. Voit halutessasi myös poistaa rastin klikkaamalla ruutua uudelleen. Valintaruudun käyttö on vapaaehtoista. Se kuitenkin tukee edistymisesi seurantaa esimerkiksi tilanteissa, joissa opettaja lisää kurssialueelle materiaalia kurssin aikana ja haluat seurata, mitkä tiedostoista olet lukenut ja mitkä ovat vielä lukematta.&lt;/p&gt;
+&lt;/div&gt; "
+    data-html="true" 
+    tabindex="0"
+    data-trigger="focus">
+  <i class="icon fa fa-question-circle text-info fa-fw "  title="Toiminnon Suoritusten valintalaatikot ohje" aria-label="Toiminnon Suoritusten valintalaatikot ohje"></i>
+</a></div><h2 class="accesshide">Viikkonäkymä</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-labelledby="sectionid-94845-title" data-sectionid="0" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/spacer" /></div><div class="content"><h3 id="sectionid-94845-title" class="sectionname"><span><a href="#section-0">Yleistä</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><div><strong><span id="result_box" tabindex="-1" class="" style="color: rgb(239, 69, 64);" lang="en"></span></strong>Kurssi järjestetään etänä tänä keväänä. Kurssilla on yhdet etäsitsit Zoomissa useassa sijainnissa yhtäaikaisesti. Harjoituksia on omatoimisesti viikonloppuina. Kurssilla on yhden puheen verran aiheisiin jaoteltuja videoita ja kaksi Zoom-ohjelmaa viikossa. Lisäksi julkaistaan tarpeen mukaan infoviestejä kurssijärjestelyistä.<br></div><div><br></div><div>Kurssi kattaa perusasiat digitaalisesta Zoom-työskentelystä, Zoomin peruskäytöstä käsittelyssä ja antaa pohjan Zoom-jatkokursseille.<br></div><h4></h4><h3>Luennoija</h3>
+<ul>
+<li>Samu S.alko<br></li>
+</ul>
+<h4></h4><h3>Harjoitusassistentit</h3><strong>Alkuviikon harkat (to-to):</strong><br><ul>
+    <li>Teemu 1</li>
+    <li>Teemu 2</li>
+    <li>Teemu 3</li>
+    <li>Teemu 4</li>
+    <li>Teemu 5</li>
+    </ul>
+    <strong>Loppuviikon harkat (to-to):</strong><br><ul>
+        <li>Teemu 7</li>
+        <li>Teemu 8</li>
+        <li>Teemu 9</li>
+        <li>Teemu 10</li>
+        <li>Teemu 11</li>
+    </ul><h4></h4><h3>Luennot</h3>
+<ul></ul><div><ul><li><span><span>Kurssilla on kahden luennon verran aiheisiin jaoteltuja videoita viikossa periodilla 4</span></span></li><li>Luentovideot ovat katsottavissa kunkin viikon alusta lähtien itsellesi sopivaan aikaan</li></ul></div><h4></h4><h3>Harjoitukset</h3><ul><li><span class="" style="color: rgb(51, 51, 51);">Harjoitukset ovat Zoomissa.&nbsp;</span></li><li><span class="" style="color: rgb(51, 51, 51);">Harjoituksiin ilmoittaudutaan Moodlessa ensimmäisellä luentoviikolla.</span></li><li><span class="" style="color: rgb(51, 51, 51);">Harjoituksia on kahdet eri harjoitukset viikossa:&nbsp; <span>alku- ja loppuviikon</span><br></span></li><li><span class="" style="color: rgb(51, 51, 51);">Ilmoittaudu yhteen alkuviikon (ma-ti) ja yhteen loppuviikon (ke-pe) harjoituksista.<br></span></li><li><span class="" style="color: rgb(51, 51, 51);">Harjoitukset alkavat viikolla <span class="" style="color: rgb(51, 51, 51);">11</span>.</span></li><li><span class="" style="color: rgb(51, 51, 51);">Harjoitusryhmiä on <span><span class="" style="color: rgb(51, 51, 51);">26</span></span><span class="" style="color: rgb(51, 51, 51);"> </span>kpl:</span></li></ul><div><img src="./hikkanen_kokologo.png" alt="Hieno Hiukkaslogo" role="presentation" class="img-responsive atto_image_button_text-bottom" width="600" height="198"><br></div><ul><li>Jokaisessa harjoituksessa on 5 tehtävää ja harjoituksia on 12 kpl.</li><li>Harjoituksissa on sekä Zoom-harjoituksissa ratkaistavia Matlab-tehtäviä että etukäteen ratkaistavia kynä &amp; paperi -tehtäviä.</li><li>Lue <strong><a href="" target="_blank">Zoom-harjoitusohje</a></strong> hyvissä ajoin ennen ensimmäistä harjoitusta.<br></li><li>Asenna harjoitusten tekemiseen Matlab omalle tietokoneellesi. Ohjeet löytyvät täältä: <a href="" target="_blank">Intranet ohjeet</a></li><li>Matlabin toolboxeista asenna ainakin Signal Processing Toolbox ja Image Processing Toolbox.<br></li><li>Hyväksytyn kokonaissuorituksen saavuttamiseksi vaaditaan <strong>50 % kaikista harjoituksista </strong>(eli 30/60 tehtävää).<strong><br></strong></li><li>Jos olet tehnyt 50% harjoituksista 2017-2020, voit osallistua tenttiin (myös Introduction to Signal Processing harjoitussuoritus kelpaa).<br></li><li>Zoom-harjoituspisteillä on mahdollista saada bonuspisteitä tenttipisteisiin:<br><table rules="all" frame="border" cellpadding="1" border="1"><tbody><tr><td>Zoom-harjoituspisteet <br></td>
+<td style="text-align: center;">&nbsp;36&nbsp; <br></td>
+<td style="text-align: center;">&nbsp;42&nbsp; <br></td>
+<td style="text-align: center;">&nbsp;48&nbsp; <br></td><td style="text-align: center;">&nbsp;54</td>
+
+
+</tr>
+<tr>
+<td>Bonuspisteet<br></td>
+<td style="text-align: center;">+1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">+3</td><td style="text-align: center;">+4 <br></td>
+</tr></tbody></table></li>
+</ul>
+<ul>
+<li>Bonuspisteet auttavat kurssin läpipääsyssä: arvosanan 1 saa, kun tentti- ja bonuspisteet yhdessä ovat vähintään 15 pistettä.</li><li>Bonuspisteet korottavat hyväksyttyä arvosanaa kuin ne olisivat tenttipisteitä, jolloin 3 bonuspistettä vastaa yhdellä 
+korkeampaa arvosanaa.<em><br></em></li><li>Bonuspisteet ovat voimassa vain tämän toteutuksen tenteissä. (<span><span>Aiempien
+ vuosien bonuspisteet 
+eivät ole enää voimassa.</span></span>)</li></ul><span id="contentHeaderText"></span><div><div><h3></h3><h3><span>Tentti</span></h3><div><ul><li>Tentit ovat paperitenttejä, jos tilanne sallii niiden järjestämisen. 
+Muussa tapauksessa kurssin aikana viestitään ja ohjeistetaan 
+vaihtoehtoinen tentin toteutustapa.</li></ul><div><h3>Luentomateriaali</h3></div></div></div></div>
+<ul>
+<li>Kurssilla seurataan <a href="">luentomonistetta</a>.</li>
+	<li>Loppupään materiaali on <a href="">liitteessä</a>.</li><li>Kunkin viikon kohdata löytyvät myös läpikäydyt luentokalvot.<br></li><p></p>
+
+</ul></div></div><ul class="section img-text"><li class="activity forum modtype_forum " id="module-453941"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/forum/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Uutiset<span class="accesshide " > Keskustelualue</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-1006002"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Luentomoniste<span class="accesshide " > Tiedosto</span></span></a></div></div></div></div></li><li class="activity forum modtype_forum " id="module-850032"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/forum/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Yleinen Keskustelu<span class="accesshide " > Keskustelualue</span></span></a></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-labelledby="sectionid-94846-title" data-sectionid="1" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/spacer" /></div><div class="content"><h3 id="sectionid-94846-title" class="sectionname"><span><a href="">8. maaliskuuta - 14. maaliskuuta</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><p><strong><a href="" target="_blank"><strong></strong></a><a href="" target="_blank"><b>Infovideo kurssin järjestelyistä</b></a><br></strong></p><p><strong><a href="" target="_blank"><strong><b>Infovideo harkoista</b></strong></a><br></strong></p><p>Monisteen<strong> <b>luku 1: Digitaalinen signaalinkäsittely </b></strong>(s. 1-7)<strong><br></strong></p><div style="margin-left: 30px;" class="editor-indent"><ul><li>1.1 Mitä signaalinkäsittelyllä tarkoitetaan [<a href="" target="_blank"><b>video</b>]</a><br></li><li>1.2 Näytteenottoteoreema [<b><a href="" target="_blank">video</a></b>]<br></li><li>1.3 Digitaalisen signaalinkäsittelyn etuja ja haittoja jatkuva-aikaisiin suodattimiin nähden [<b><a href="" target="_blank">video</a></b>]</li><li>1.4 Sovelluskohteita [<b><a href="" target="_blank">video</a></b>]<br></li></ul></div><div>Monisteen<strong> <b>luku 2: Signaalit ja järjestelmät </b></strong>(s. 11-15)<strong></strong></div><div><strong></strong><div style="margin-left: 30px;" class="editor-indent"><div><ul><li>2.1 Eräitä signaaleita [<b><a href="" target="_blank">video</a></b>]<br></li><ul><li>2.1.1 Jonojen ominaisuuksia</li><li>2.1.2 Perusoperaatiot jonoille</li></ul></ul></div></div></div><p></p>
+<p></p></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-1013873"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Viikon 1 luentokalvot<span class="accesshide " > Tiedosto</span></span></a></div></div></div></div></li><li class="activity choice modtype_choice " id="module-1013611"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/choice/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Alkuviikon harjoitusryhmiin ilmoittautuminen<span class="accesshide " > Valinta</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Ilmoittaudu yhteen näistä alkuviikon (ma-ti) harjoitusryhmistä. Ilmoittautuminen on auki ma 8.3. klo 12 lähtien ja sulkeutuu pe 12.3. klo 12. Huomaa, että yhtenä maanantain ja kahtena tiistain ajoista on kaksi samanaikaista harjoitusryhmää eri assarien pitämänä.<br></p></div></div></div></div></div></div></li><li class="activity choice modtype_choice " id="module-1013619"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/choice/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Loppuviikon harjoitusryhmiin ilmoittautuminen<span class="accesshide " > Valinta</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Ilmoittaudu yhteen näistä loppuviikon (ke-pe) harjoitusryhmistä. Ilmoittautuminen on auki ma 8.3. klo 12 lähtien ja sulkeutuu pe 12.3. klo 12. Huomaa, että yhtenä torstain ajoista on kaksi samanaikaista harjoitusryhmää eri assarien pitämänä.<br></p></div></div></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix" role="region" aria-labelledby="sectionid-94847-title" data-sectionid="2" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/spacer" /></div><div class="content"><h3 id="sectionid-94847-title" class="sectionname"><span><a href="">15. maaliskuuta - 21. maaliskuuta</a></span></h3><div class="section_availability"></div><div class="summary"><div class="no-overflow"><div><strong style="color: rgb(51, 51, 51)"><a href="" target="_blank"><strong><strong></strong></strong></a></strong></div><strong></strong><strong><div><span style="font-weight: normal;">Monisteen </span><strong><b>luku 2: Signaalit ja järjestelmät</b></strong> <span style="font-weight: normal;">(s. 16-27)</span><strong></strong><br><div style="margin-left: 30px;" class="editor-indent"><div><div><ul><li><span style="font-weight: normal;">2.2 Diskreettien järjestelmien ominaisuuksia [<b><a href="" target="_blank">video</a></b>]<br></span></li><ul><li><span style="font-weight: normal;">2.2.1 Muistittomuus</span></li><li><span style="font-weight: normal;">2.2.2 Lineaarisuus</span></li><li><span style="font-weight: normal;">2.2.3 Siirtoinvarianssi</span></li><li><span style="font-weight: normal;">2.2.4 Kausaalisuus</span></li><li><span style="font-weight: normal;">2.2.5 Stabiilisuus</span></li></ul><span style="font-weight: normal;"></span><li><span style="font-weight: normal;">2.3 Lineaariset siirtoinvariantit (LTI) järjestelmät <strong><span>[<a href="" target="_blank"><b>video</b></a>]</span></strong> (videolla 2.3.1-2)<br></span></li><ul><li><span style="font-weight: normal;">2.3.1 Impulssivaste ja konvoluutio</span></li><li><span style="font-weight: normal;">2.3.2 Konvoluution ominaisuuksia (katso ennen harjoituksen 2 tehtävän 2 tekemistä)<br></span></li><li><span style="font-weight: normal;">Sovellus: konvoluutioneuroverkko <strong><span>[<a href="" target="_blank"><b>video</b></a>]</span></strong><br></span></li><li><span style="font-weight: normal;">2.3.3 FIR- ja IIR-suotimet <strong><span>[<a href="" target="_blank"><b>video</b></a>]</span></strong><br></span></li></ul></ul></div></div></div><div><div><div><strong><div><span style="font-weight: normal;"><span>Monisteen </span></span><strong><b>luku 3: Fourier-muunnos</b></strong> <span style="font-weight: normal;"><span>(s. 33-39)</span></span><strong></strong></div><div><strong></strong><div style="margin-left: 30px;" class="editor-indent"><div><div><div><ul><li><span style="font-weight: normal;"><span>3.1 Fourier-muunnos (ei-jaksollinen jatkuva-aikainen signaali) <strong><span>[<a href="" target="_blank"><b>video</b></a>]</span></strong><br></span></span></li><li><span style="font-weight: normal;"><span>3.2 Fourier-sarja (jaksollinen jatkuva-aikainen signaali) <strong><span>[<a href="" target="_blank"><b>video</b></a>]</span></strong><br></span></span></li><li><span style="font-weight: normal;"><span>3.3 Diskreettiaikainen Fourier-muunnos (diskreettiaikainen ei-jaksollinen signaali) <strong><span>[<a href="" target="_blank"><b>video</b></a>]</span></strong></span></span></li></ul></div></div></div></div></div></strong></div></div></div></div></strong></div></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-1017994"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Viikon 2 luentokalvot<span class="accesshide " > Tiedosto</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-1004967"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harjoitus 1<span class="accesshide " > Tiedosto</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Tehtävän 5 tehtävänantoa selkiytetty 15.3. klo 17:16.<br></p></div></div></div></div></div></div></li><li class="activity resource modtype_resource " id="module-1011542"><div><div class="mod-indent-outer w-100"><div class="mod-indent mod-indent-1"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/f/archive-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harj_1.zip<span class="accesshide " > Tiedosto</span></span></a></div></div></div></div></li><li class="activity assign modtype_assign " id="module-850042"><div><div class="mod-indent-outer w-100"><div class="mod-indent mod-indent-1"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/assign/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harjoitus 1: kynä &amp; paperi -tehtävien palautus<span class="accesshide " > Tehtävä</span></span></a></div></div></div></div></li><li class="activity assign modtype_assign " id="module-1026087"><div><div class="mod-indent-outer w-100"><div class="mod-indent mod-indent-1"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/assign/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harjoitus 1: vaihtoehtoinen suoritustapa (ei bonuksia)<span class="accesshide " > Tehtävä</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-1004969"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harjoitus 2<span class="accesshide " > Tiedosto</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-1011543"><div><div class="mod-indent-outer w-100"><div class="mod-indent mod-indent-1"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/f/archive-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harj_2.zip<span class="accesshide " > Tiedosto</span></span></a></div></div></div></div></li><li class="activity assign modtype_assign " id="module-1006045"><div><div class="mod-indent-outer w-100"><div class="mod-indent mod-indent-1"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/assign/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harjoitus 2: kynä &amp; paperi -tehtävien palautus<span class="accesshide " > Tehtävä</span></span></a></div></div></div></div></li><li class="activity assign modtype_assign " id="module-1026176"><div><div class="mod-indent-outer w-100"><div class="mod-indent mod-indent-1"></div><div><div class="activityinstance"><a class="aalink" onclick="" href=""><img src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/assign/1629705365/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Harjoitus 2: vaihtoehtoinen suoritustapa (ei bonuksia)<span class="accesshide " > Tehtävä</span></span></a></div></div></div></div></li></ul></div></li><li id="section-3" class="section main clearfix" role="region" aria-labelledby="sectionid-94848-title" data-sectionid="3" data-sectionreturnid="0"><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" aria-hidden="true" src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/core/1629705365/spacer" /></div><div class="content"><h3 id="sectionid-187721-title" class="sectionname"><span><a href="">3. toukokuuta - 9. toukokuuta</a></span></h3><div class="section_availability"><div class="availabilityinfo ishidden">
+    <span class="badge badge-info">Ei saatavilla</span>
+</div></div><div class="summary"></div></div></li></ul></div></div>
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+                <section data-region="blocks-column" class="d-print-none">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-2" class="sr-only sr-only-focusable">Ohita</a>
+
+<section id="inst360560"
+     class=" block_course_summary block  card mb-3"
+     role="complementary"
+     data-block="course_summary"
+          aria-labelledby="instance-360560-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-360560-header" class="card-title d-inline">Kurssin kuvaus</h5>
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow"><h4>Osaamistavoitteet</h4><ul><li>Opintojakson suoritettuaan opiskelija tunnistaa signaalinkäsittelyn 
+keskeiset peruskäsitteet, osaa keskustella niistä sekä ratkaista niihin 
+liittyviä tehtäviä.</li><li>Opiskelija hallitsee myös Matlab-ohjelmiston alkeet 
+ja hänellä on jatkokursseilla tarvittava peruslaskurutiini.</li><li>Lisäksi 
+opiskelija osaa analysoida lineaarisen suotimen tärkeimmät ominaisuudet 
+sen siirtofunktion kautta sekä suunnitella FIR-suotimia joko Matlabilla 
+tai ikkunamenetelmällä käsin.</li><li>Opiskelija osaa myös ratkaista signaalin 
+diskreetin Fourier-muunnoksen sekä matriisimenetelmällä että 
+FFT-algoritmilla.</li><li>Lisäksi hän osaa suunnitella lineaarisen luokittelijan
+ sekä käsin että Matlab-ohjelmistolla.</li></ul><div><h4>Ydinsisältö</h4><ul><li>Digitaalisen signaalinkäsittelyn perusteet: 
+näytteenottoteoreema, diskreetit signaalit ja niiden ominaisuudet, 
+digitaaliset lineaariset järjestelmät ja niiden ominaisuudet, 
+konvoluutio.</li><li>Lineaaristen järjestelmien analyysi: diskreetti Fourier-muunnos, FFT, z-muunnos, siirtofunktio ja taajuusvaste.</li><li>Lineaaristen järjestelmien synteesi: FIR-suodinten suunnittelu ikkunamenetelmällä.</li><li>Näytteenottotaajuuden muuntelu: interpolointi- ja desimointioperaatiot.</li><li>Koneoppimisen toimintaperiaatteet: lähimmän naapurin luokittelija, lineaarinen luokittelija ja hermoverkko.</li><li>Katsaus sovelluksiin. Lisäksi pyritään saamaan vierailuluennoitsijoita yliopistolta ja teollisuudesta.</li></ul><br></div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-2"></span><a href="#sb-3" class="sr-only sr-only-focusable">Ohita</a>
+
+<section id="inst360564"
+     class=" block_search_forums block  card mb-3"
+     role="search"
+     data-block="search_forums"
+          aria-labelledby="instance-360564-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-360564-header" class="card-title d-inline">Hae keskusteluista</h5>
+
+
+        <div class="card-text content mt-3">
+            <div class="searchform">
+    <form action="" class="form-inline">
+        <div class="input-group w-100">
+            <label class="sr-only" for="searchform_search">Hae</label>
+            <input id="searchform_search" name="search" type="text" class="form-control" size="10">
+            <div class="input-group-append">
+                <button class="btn btn-secondary" id="searchform_button" type="submit">Hae</button>
+            </div>
+        </div>
+    </form>
+    <div class="mt-3">
+        <a href="">Tarkennettu haku</a>
+            
+            <a class="btn btn-link p-a-0" 
+                role="button"
+                data-container="body" 
+                data-toggle="popover"
+                data-placement="top" 
+                data-content="<div class='popover-close'><a href='#'><i class='fa fa-close fa-fw'></i></a></div> &lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;Tekstin perushaussa (yksi tai useampi sana) kirjoita sanoja erottamalla ne välilyönnillä. Kaikki kahta merkkiä pidemmät sanat ovat haun kohteena.&lt;/p&gt;
+
+&lt;p&gt;Halutessasi päästä edistyneeseen hakuun paina haku-painiketta kirjoittamatta hakuikkunaan mitään niin lomake hakuun aukeaa.&lt;/p&gt;
+&lt;/div&gt; "
+                data-html="true" 
+                tabindex="0"
+                data-trigger="focus">
+              <i class="icon fa fa-question-circle text-info fa-fw "  title="Toiminnon Hae ohje" aria-label="Toiminnon Hae ohje"></i>
+            </a>
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-3"></span><a href="#sb-4" class="sr-only sr-only-focusable">Ohita</a>
+
+<section id="inst360563"
+     class=" block_news_items block  card mb-3"
+     role="complementary"
+     data-block="news_items"
+          aria-labelledby="instance-360563-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-360563-header" class="card-title d-inline">Viimeisimmät uutiset</h5>
+
+
+        <div class="card-text content mt-3">
+            
+<ul class='unlist'>
+<li class="post"><div class="head clearfix"><div class="date">10 kesä, 21:02</div><div class="name">Jaska Jokunen</div></div><div class="info"><a href="https://moodle.tuni.fi/mod/forum/discuss.php?d=351588">Missä mun housut on?</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">27 touko, 10:10</div><div class="name">Tommi Läntinen</div></div><div class="info"><a href="https://moodle.tuni.fi/mod/forum/discuss.php?d=348609">JA VIELÄ KERRAN 3. tenttimahdollisuus </a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">4 touko, 13:39</div><div class="name">Jäbä 1</div></div><div class="info"><a href="https://moodle.tuni.fi/mod/forum/discuss.php?d=339977">Mennään mennään</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">28 huhti, 09:36</div><div class="name">Samu Salko</div></div><div class="info"><a href="https://moodle.tuni.fi/mod/forum/discuss.php?d=336919">Saisko HTML-koodista ammatin?</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">26 huhti, 09:43</div><div class="name">Samu Salko</div></div><div class="info"><a href="https://moodle.tuni.fi/mod/forum/discuss.php?d=335104">HTML paras on KOODIKIELI :)</a></div></li>
+</ul>
+
+            <div class="footer"><a href="">Vanhat aiheet</a> ...</div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-4"></span><a href="#sb-5" class="sr-only sr-only-focusable">Ohita</a>
+
+<section id="inst360562"
+     class=" block_calendar_upcoming block  card mb-3"
+     role="complementary"
+     data-block="calendar_upcoming"
+          aria-labelledby="instance-360562-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-360562-header" class="card-title d-inline">Tulevat tapahtumat</h5>
+
+
+        <div class="card-text content mt-3">
+            <div id="calendar-upcoming-block-61274969389e961274969235262" data-template="core_calendar/upcoming_mini">
+    <div class="card-text content calendarwrapper" id="month-upcoming-mini-61274969389e961274969235262" data-context-id="739541" data-courseid="11427" data-categoryid="8">
+        <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+        </span>
+            Ei tulevia tapahtumia
+    </div>
+</div>
+            <div class="footer"><div class="gotocal"><a href="">Siirry kalenteriin...</a></div></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-5"></span><a href="#sb-6" class="sr-only sr-only-focusable">Ohita</a>
+
+<section id="inst360561"
+     class=" block_recent_activity block  card mb-3"
+     role="complementary"
+     data-block="recent_activity"
+          aria-labelledby="instance-360561-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-360561-header" class="card-title d-inline">Viimeisin toiminta</h5>
+
+
+        <div class="card-text content mt-3">
+            <div class="activityhead">Tapahtumat tiistai, 24. elokuuta 2021, 10:56 lähtien</div><div class="activityhead mb-3"><a href="">Viimeisimpien tapahtumien kattava raportti</a></div><p class="message">Ei viimeaikaista toimintaa</p>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-6"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div
+    id="drawer-6127496975757612749692352621"
+    class=" drawer bg-white hidden"
+    aria-expanded="false"
+    aria-hidden="true"
+    data-region="right-hand-drawer"
+    role="region"
+    tabindex="0"
+>
+            <div id="message-drawer-6127496975757612749692352621" class="message-app" data-region="message-drawer" role="region">
+            <div class="closewidget bg-light border-bottom text-right">
+                <a class="text-dark" data-action="closedrawer" href="#"
+                   title="Sulje" aria-label="Sulje"
+                >
+                    <i class="icon fa fa-window-close fa-fw " aria-hidden="true"  ></i>
+                </a>
+            </div>
+            <div class="header-container position-relative" data-region="header-container">
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-contacts">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch">
+                            <a class="h-100 d-flex align-items-center mr-2" href="#" data-route-back role="button">
+                                <div class="icon-back-in-drawer">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"  ></i></span>
+                                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"  ></i></span>
+                                </div>
+                                <div class="icon-back-in-app">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i></span>
+                                </div>                            </a>
+                        </div>
+                        <div>
+                            Kontaktit
+                        </div>
+                        <div class="ml-auto">
+                            <a href="#" data-route="view-search" role="button" aria-label="Hae">
+                                <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <div
+                    class="hidden bg-white position-relative border-bottom p-1 p-sm-2"
+                    aria-hidden="true"
+                    data-region="view-conversation"
+                >
+                    <div class="hidden" data-region="header-content"></div>
+                    <div class="hidden" data-region="header-edit-mode">
+                        
+                        <div class="d-flex p-2 align-items-center">
+                            Valittuja viestejä:
+                            <span class="ml-1" data-region="message-selected-court">1</span>
+                            <button type="button" class="ml-auto close" aria-label="Peruuta viestin valinta"
+                                data-action="cancel-edit-mode">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div data-region="header-placeholder">
+                        <div class="d-flex">
+                            <div
+                                class="ml-2 rounded-circle bg-pulse-grey align-self-center"
+                                style="height: 38px; width: 38px"
+                            >
+                            </div>
+                            <div class="ml-2 " style="flex: 1">
+                                <div
+                                    class="mt-1 bg-pulse-grey w-75"
+                                    style="height: 16px;"
+                                >
+                                </div>
+                            </div>
+                            <div
+                                class="ml-2 bg-pulse-grey align-self-center"
+                                style="height: 16px; width: 20px"
+                            >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="hidden position-absolute z-index-1"
+                        data-region="confirm-dialogue-container"
+                        style="top: 0; bottom: -1px; right: 0; left: 0; background: rgba(0,0,0,0.3);"
+                    ></div>
+                </div>                <div class="border-bottom  p-1 px-sm-2 py-sm-3" aria-hidden="false"  data-region="view-overview">
+                    <div class="d-flex align-items-center">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text pr-2 bg-white">
+                                    <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                </span>
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control border-left-0"
+                                placeholder="Hae"
+                                aria-label="Hae"
+                                data-region="view-overview-search-input"
+                            >
+                        </div>
+                        <div class="ml-2">
+                            <a
+                                href="#"
+                                data-route="view-settings"
+                                data-route-param="15114"
+                                aria-label="Asetukset"
+                                role="button"
+                            >
+                                <i class="icon fa fa-cog fa-fw " aria-hidden="true"  ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-right mt-sm-3">
+                        <a href="#" data-route="view-contacts" role="button">
+                            <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
+                            Kontaktit
+                            <span class="badge badge-primary bg-primary ml-2 hidden"
+                            data-region="contact-request-count"
+                            aria-label="0 kontaktipyyntöä odottaa">
+                                0
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hidden border-bottom px-2 py-3 view-search"  aria-hidden="true" data-region="view-search">
+                    <div class="d-flex align-items-center">
+                        <a
+                            class="mr-2 align-self-stretch d-flex align-items-center"
+                            href="#"
+                            data-route-back
+                            data-action="cancel-search"
+                            role="button"
+                        >
+                            <div class="icon-back-in-drawer">
+                                <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"  ></i></span>
+                                <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"  ></i></span>
+                            </div>
+                            <div class="icon-back-in-app">
+                                <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i></span>
+                            </div>                        </a>
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Hae"
+                                aria-label="Hae"
+                                data-region="search-input"
+                            >
+                            <div class="input-group-append">
+                                <button
+                                    class="btn btn-outline-secondary"
+                                    type="button"
+                                    data-action="search"
+                                    aria-label="Hae"
+                                >
+                                    <span data-region="search-icon-container">
+                                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                    </span>
+                                    <span class="hidden" data-region="loading-icon-container">
+                                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-settings">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch" >
+                            <a class="h-100 d-flex mr-2 align-items-center" href="#" data-route-back role="button">
+                                <div class="icon-back-in-drawer">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"  ></i></span>
+                                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"  ></i></span>
+                                </div>
+                                <div class="icon-back-in-app">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i></span>
+                                </div>                            </a>
+                        </div>
+                        <div>
+                            Asetukset
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-container position-relative" data-region="body-container">
+                
+                <div
+                    class="hidden"
+                    data-region="view-contact"
+                    aria-hidden="true"
+                >
+                    <div class="p-2 pt-3" data-region="content-container"></div>
+                </div>                <div class="hidden h-100" data-region="view-contacts" aria-hidden="true" data-user-id="15114">
+                    <div class="d-flex flex-column h-100">
+                        <div class="p-3 border-bottom">
+                            <ul class="nav nav-pills nav-fill" role="tablist">
+                                <li class="nav-item">
+                                    <a
+                                        id="contacts-tab-6127496975757612749692352621"
+                                        class="nav-link active"
+                                        href=""
+                                        data-toggle="tab"
+                                        data-action="show-contacts-section"
+                                        role="tab"
+                                        aria-controls="contacts-tab-panel-6127496975757612749692352621"
+                                        aria-selected="true"
+                                    >
+                                        Kontaktit
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        id="requests-tab-6127496975757612749692352621"
+                                        class="nav-link"
+                                        href=""
+                                        data-toggle="tab"
+                                        data-action="show-requests-section"
+                                        role="tab"
+                                        aria-controls="requests-tab-panel-6127496975757612749692352621"
+                                        aria-selected="false"
+                                    >
+                                        Pyynnöt
+                                        <span class="badge badge-primary bg-primary ml-2 hidden"
+                                        data-region="contact-request-count"
+                                        aria-label="0 kontaktipyyntöä odottaa">
+                                            0
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content d-flex flex-column h-100">
+                                            <div
+                    class="tab-pane fade show active h-100 lazy-load-list"
+                    aria-live="polite"
+                    data-region="lazy-load-list"
+                    data-user-id="15114"
+                                        id="contacts-tab-panel-6127496975757612749692352621"
+                    data-section="contacts"
+                    role="tabpanel"
+                    aria-labelledby="contacts-tab-6127496975757612749692352621"
+
+                >
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        Ei kontakteja
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                    </div>
+                </div>
+                
+                                            <div
+                    class="tab-pane fade h-100 lazy-load-list"
+                    aria-live="polite"
+                    data-region="lazy-load-list"
+                    data-user-id="15114"
+                                        id="requests-tab-panel-6127496975757612749692352621"
+                    data-section="requests"
+                    role="tabpanel"
+                    aria-labelledby="requests-tab-6127496975757612749692352621"
+
+                >
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        Ei kontaktipyyntöjä
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>                
+                <div
+                    class="view-conversation hidden h-100"
+                    aria-hidden="true"
+                    data-region="view-conversation"
+                    data-user-id="15114"
+                    data-midnight="1629925200"
+                    data-message-poll-min="10"
+                    data-message-poll-max="120"
+                    data-message-poll-after-max="300"
+                    style="overflow-y: auto; overflow-x: hidden"
+                >
+                    <div class="position-relative h-100" data-region="content-container" style="overflow-y: auto; overflow-x: hidden">
+                        <div class="content-message-container hidden h-100 px-2 pt-0" data-region="content-message-container" role="log" style="overflow-y: auto; overflow-x: hidden">
+                            <div class="py-3 sticky-top z-index-1 border-bottom text-center hidden" data-region="contact-request-sent-message-container">
+                                <p class="m-0">Kontaktipyynnöt lähetetty</p>
+                                <p class="font-italic font-weight-light" data-region="text"></p>
+                            </div>
+                            <div class="p-3 text-center hidden" data-region="self-conversation-message-container">
+                                <p class="m-0">Henkilökohtainen tila</p>
+                                <p class="font-italic font-weight-light" data-region="text">Tallenna viestiluonnokset, linkit, muistiinpanot jne. ja palaa niihin myöhemmin.</p>
+                           </div>
+                            <div class="hidden text-center p-3" data-region="more-messages-loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</div>
+                        </div>
+                        <div class="p-4 w-100 h-100 hidden position-absolute z-index-1" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
+                            
+                            <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
+                                <p class="text-muted" data-region="dialogue-text"></p>
+                                <div class="mb-2 custom-control custom-checkbox hidden" data-region="delete-messages-for-all-users-toggle-container">
+                                    <input type="checkbox" class="custom-control-input" id="delete-messages-for-all-users" data-region="delete-messages-for-all-users-toggle">
+                                    <label class="custom-control-label text-muted" for="delete-messages-for-all-users">
+                                        Poista minulta ja kaikilta muilta
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-block">
+                                    <span data-region="dialogue-button-text">Estä</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-unblock">
+                                    <span data-region="dialogue-button-text">Poista esto</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-remove-contact">
+                                    <span data-region="dialogue-button-text">Poista</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-add-contact">
+                                    <span data-region="dialogue-button-text">Lisää</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-selected-messages">
+                                    <span data-region="dialogue-button-text">Poista</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-conversation">
+                                    <span data-region="dialogue-button-text">Poista</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="request-add-contact">
+                                    <span data-region="dialogue-button-text">Lähetä kontaktipyyntö</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="accept-contact-request">
+                                    <span data-region="dialogue-button-text">Hyväksy ja lisää kontakteihin</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-block hidden" data-action="decline-contact-request">
+                                    <span data-region="dialogue-button-text">Hylkää</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block" data-action="okay-confirm">OK</button>
+                                <button type="button" class="btn btn-secondary btn-block" data-action="cancel-confirm">Peruuta</button>
+                            </div>
+                        </div>
+                        <div class="px-2 pb-2 pt-0" data-region="content-placeholder">
+                            <div class="h-100 d-flex flex-column">
+                                <div
+                                    class="px-2 pb-2 pt-0 bg-light h-100"
+                                    style="overflow-y: auto"
+                                >
+                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                </div>
+                            </div>                        </div>
+                    </div>
+                </div>
+                
+                <div
+                    class="hidden"
+                    aria-hidden="true"
+                    data-region="view-group-info"
+                >
+                    <div
+                        class="pt-3 h-100 d-flex flex-column"
+                        data-region="group-info-content-container"
+                        style="overflow-y: auto"
+                    ></div>
+                </div>                <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview"  data-user-id="15114">
+                    <div id="message-drawer-view-overview-container-6127496975757612749692352621" class="d-flex flex-column h-100" style="overflow-y: auto">
+                            
+                            
+                            <div
+                                class="section border-0 card"
+                                data-region="view-overview-favourites"
+                            >
+                                <div id="view-overview-favourites-toggle" class="card-header p-0" data-region="toggle">
+                                    <button
+                                        class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-target="#view-overview-favourites-target-6127496975757612749692352621"
+                                        aria-expanded="false"
+                                        aria-controls="view-overview-favourites-target-6127496975757612749692352621"
+                                    >
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                        <span class="font-weight-bold">Suosikit</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container"
+                                        aria-label=" keskustelua yhteensä">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary"
+                                        data-region="section-unread-count"
+                                        >
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div
+                                class="collapse border-bottom  lazy-load-list"
+                                aria-live="polite"
+                                data-region="lazy-load-list"
+                                data-user-id="15114"
+                                            id="view-overview-favourites-target-6127496975757612749692352621"
+            aria-labelledby="view-overview-favourites-toggle"
+            data-parent="#message-drawer-view-overview-container-6127496975757612749692352621"
+
+                            >
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">Ei suosikiksi merkittyjä keskusteluja</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                            <div
+                                class="section border-0 card"
+                                data-region="view-overview-group-messages"
+                            >
+                                <div id="view-overview-group-messages-toggle" class="card-header p-0" data-region="toggle">
+                                    <button
+                                        class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-target="#view-overview-group-messages-target-6127496975757612749692352621"
+                                        aria-expanded="false"
+                                        aria-controls="view-overview-group-messages-target-6127496975757612749692352621"
+                                    >
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                        <span class="font-weight-bold">Ryhmäviestit</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container"
+                                        aria-label=" keskustelua yhteensä">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary"
+                                        data-region="section-unread-count"
+                                        >
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div
+                                class="collapse border-bottom  lazy-load-list"
+                                aria-live="polite"
+                                data-region="lazy-load-list"
+                                data-user-id="15114"
+                                            id="view-overview-group-messages-target-6127496975757612749692352621"
+            aria-labelledby="view-overview-group-messages-toggle"
+            data-parent="#message-drawer-view-overview-container-6127496975757612749692352621"
+
+                            >
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">Ei ryhmäkeskusteluja</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                            <div
+                                class="section border-0 card"
+                                data-region="view-overview-messages"
+                            >
+                                <div id="view-overview-messages-toggle" class="card-header p-0" data-region="toggle">
+                                    <button
+                                        class="btn btn-link w-100 text-left p-1 p-sm-2 d-flex align-items-center overview-section-toggle collapsed"
+                                        data-toggle="collapse"
+                                        data-target="#view-overview-messages-target-6127496975757612749692352621"
+                                        aria-expanded="false"
+                                        aria-controls="view-overview-messages-target-6127496975757612749692352621"
+                                    >
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                        <span class="font-weight-bold">Henkilökohtaiset</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container"
+                                        aria-label=" keskustelua yhteensä">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary"
+                                        data-region="section-unread-count"
+                                        >
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div
+                                class="collapse border-bottom  lazy-load-list"
+                                aria-live="polite"
+                                data-region="lazy-load-list"
+                                data-user-id="15114"
+                                            id="view-overview-messages-target-6127496975757612749692352621"
+            aria-labelledby="view-overview-messages-toggle"
+            data-parent="#message-drawer-view-overview-container-6127496975757612749692352621"
+
+                            >
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">Ei henkilökohtaisia keskusteluja</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div
+                    data-region="view-search"
+                    aria-hidden="true"
+                    class="h-100 hidden"
+                    data-user-id="15114"
+                    data-users-offset="0"
+                    data-messages-offset="0"
+                    style="overflow-y: auto"
+                    
+                >
+                    <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
+                        
+                        <div class="d-flex flex-column">
+                            <div class="mb-3 bg-white" data-region="all-contacts-container">
+                                <div data-region="contacts-container"  class="pt-2">
+                                    <h4 class="h6 px-2">Kontaktit</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div data-region="non-contacts-container" class="pt-2 border-top">
+                                    <h4 class="h6 px-2">Ei kontaktilistalla</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-users">
+                                        <span data-region="button-text">Hae lisää</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="bg-white" data-region="messages-container">
+                                <h4 class="h6 px-2 pt-2">Viestit</h4>
+                                <div class="list-group" data-region="list"></div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-messages">
+                                        <span data-region="button-text">Hae lisää</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="hidden p-3 text-center" data-region="no-results-container">Ei tuloksia</p>
+                        </div>                    </div>
+                    <div class="hidden" data-region="loading-placeholder">
+                        <div class="text-center pt-3 icon-size-4"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</div>
+                    </div>
+                    <div class="p-3 text-center" data-region="empty-message-container">
+                        <p>Hae käyttäjiä ja viestejä</p>
+                    </div>
+                </div>                
+                <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
+                    <div class="hidden" data-region="content-container">
+                        
+                        <div data-region="settings" class="p-3">
+                            <h3 class="h6 font-weight-bold">Yksityisyys</h3>
+                            <p>Voit rajoittaa kuka saa lähettää sinulle viestejä</p>
+                            <div data-preference="blocknoncontacts" class="mb-3">
+                                <fieldset>
+                                    <legend class="sr-only">Hyväksy viestit käyttäjältä:</legend>
+                                        <div class="custom-control custom-radio mb-2">
+                                            <input
+                                                type="radio"
+                                                name="message_blocknoncontacts"
+                                                class="custom-control-input"
+                                                id="block-noncontacts-6127496975757612749692352621-1"
+                                                value="1"
+                                            >
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-6127496975757612749692352621-1">
+                                                Vain kontaktini
+                                            </label>
+                                        </div>
+                                        <div class="custom-control custom-radio mb-2">
+                                            <input
+                                                type="radio"
+                                                name="message_blocknoncontacts"
+                                                class="custom-control-input"
+                                                id="block-noncontacts-6127496975757612749692352621-0"
+                                                value="0"
+                                            >
+                                            <label class="custom-control-label ml-2" for="block-noncontacts-6127496975757612749692352621-0">
+                                                Kontaktini ja kuka tahansa kursseiltani
+                                            </label>
+                                        </div>
+                                </fieldset>
+                            </div>
+                        
+                            <div class="hidden" data-region="notification-preference-container">
+                                <h3 class="mb-2 mt-4 h6 font-weight-bold">Ilmoituksien asetukset</h3>
+                            </div>
+                        
+                            <h3 class="mb-2 mt-4 h6 font-weight-bold">Yleinen</h3>
+                            <div data-preference="entertosend">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="enter-to-send-6127496975757612749692352621" >
+                                    <label class="custom-control-label" for="enter-to-send-6127496975757612749692352621">
+                                        Käytä Enter-näppäintä lähettämiseen
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-region="placeholder-container">
+                        
+                        <div class="d-flex flex-column p-3">
+                            <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
+                            <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-50 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-4">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-25 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                        </div>                    </div>
+                </div>            </div>
+            <div class="footer-container position-relative" data-region="footer-container">
+                
+                <div
+                    class="hidden border-top bg-white position-relative"
+                    aria-hidden="true"
+                    data-region="view-conversation"
+                    data-enter-to-send="0"
+                >
+                    <div class="hidden p-sm-2" data-region="content-messages-footer-container">
+                        
+                            <div
+                                class="emoji-auto-complete-container w-100 hidden"
+                                data-region="emoji-auto-complete-container"
+                                aria-live="polite"
+                                aria-hidden="true"
+                            >
+                            </div>
+                        <div class="d-flex mt-sm-1">
+                            <textarea
+                                dir="auto"
+                                data-region="send-message-txt"
+                                class="form-control bg-light"
+                                rows="3"
+                                data-auto-rows
+                                data-min-rows="3"
+                                data-max-rows="5"
+                                aria-label="Kirjoita viesti..."
+                                placeholder="Kirjoita viesti..."
+                                style="resize: none"
+                                maxlength="4096"
+                            ></textarea>
+                        
+                            <div class="position-relative d-flex flex-column">
+                                    <div
+                                        data-region="emoji-picker-container"
+                                        class="emoji-picker-container hidden"
+                                        aria-hidden="true"
+                                    >
+                                        
+                                        <div
+                                            data-region="emoji-picker"
+                                            class="card shadow emoji-picker"
+                                        >
+                                            <div class="card-header px-1 pt-1 pb-0 d-flex justify-content-between flex-shrink-0">
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button selected"
+                                                    data-action="show-category"
+                                                    data-category="Recent"
+                                                    title="Viimeaikaiset"
+                                                >
+                                                    <i class="icon fa fa-clock-o fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Smileys & People"
+                                                    title="Hymiöt & ihmiset"
+                                                >
+                                                    <i class="icon fa fa-smile-o fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Animals & Nature"
+                                                    title="Eläimet & luonto"
+                                                >
+                                                    <i class="icon fa fa-leaf fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Food & Drink"
+                                                    title="Ruoka & juoma"
+                                                >
+                                                    <i class="icon fa fa-cutlery fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Travel & Places"
+                                                    title="Matkailu & paikat"
+                                                >
+                                                    <i class="icon fa fa-plane fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Activities"
+                                                    title="Aktiviteetit"
+                                                >
+                                                    <i class="icon fa fa-futbol-o fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Objects"
+                                                    title="Esineet"
+                                                >
+                                                    <i class="icon fa fa-lightbulb-o fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Symbols"
+                                                    title="Symbolit"
+                                                >
+                                                    <i class="icon fa fa-heart fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                                <button
+                                                    class="btn btn-outline-secondary icon-no-margin category-button"
+                                                    data-action="show-category"
+                                                    data-category="Flags"
+                                                    title="Liput"
+                                                >
+                                                    <i class="icon fa fa-flag fa-fw " aria-hidden="true"  ></i>
+                                                </button>
+                                            </div>
+                                            <div class="card-body p-2 d-flex flex-column overflow-hidden">
+                                                <div class="input-group mb-1 flex-shrink-0">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text pr-0 bg-white text-muted">
+                                                            <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                                                        </span>
+                                                    </div>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control border-left-0"
+                                                        placeholder="Hae"
+                                                        aria-label="Hae"
+                                                        data-region="search-input"
+                                                    >
+                                                </div>
+                                                <div class="flex-grow-1 overflow-auto emojis-container h-100" data-region="emojis-container">
+                                                    <div class="position-relative" data-region="row-container"></div>
+                                                </div>
+                                                <div class="flex-grow-1 overflow-auto search-results-container h-100 hidden" data-region="search-results-container">
+                                                    <div class="position-relative" data-region="row-container"></div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="card-footer d-flex flex-shrink-0"
+                                                data-region="footer"
+                                            >
+                                                <div class="emoji-preview" data-region="emoji-preview"></div>
+                                                <div data-region="emoji-short-name" class="emoji-short-name text-muted text-wrap ml-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button
+                                        class="btn btn-link btn-icon icon-size-3 ml-1"
+                                        aria-label="Vaihda emoji-valitsin"
+                                        data-action="toggle-emoji-picker"
+                                    >
+                                        <i class="icon fa fa-smile-o fa-fw " aria-hidden="true"  ></i>
+                                    </button>
+                                <button
+                                    class="btn btn-link btn-icon icon-size-3 ml-1 mt-auto"
+                                    aria-label="Lähetä viesti"
+                                    data-action="send-message"
+                                >
+                                    <span data-region="send-icon-container"><i class="icon fa fa-paper-plane fa-fw " aria-hidden="true"  ></i></span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden p-sm-2" data-region="content-messages-footer-edit-mode-container">
+                        
+                        <div class="d-flex p-3 justify-content-end">
+                            <button
+                                class="btn btn-link btn-icon my-1 icon-size-4"
+                                data-action="delete-selected-messages"
+                                data-toggle="tooltip"
+                                data-placement="top"
+                                title="Poista valitut viestit"
+                            >
+                                <span data-region="icon-container"><i class="icon fa fa-trash fa-fw " aria-hidden="true"  ></i></span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                                <span class="sr-only">Poista valitut viestit</span>
+                            </button>
+                        </div>                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-contact-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p data-region="title"></p>
+                            <p class="text-muted" data-region="text"></p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-add-contact">
+                                <span data-region="dialogue-button-text">Lähetä kontaktipyyntö</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-require-unblock-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">Olet estänyt tämän käyttäjän.</p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
+                                <span data-region="dialogue-button-text">Poista esto</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Ladataan" aria-label="Ladataan"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-sm-3" data-region="content-messages-footer-unable-to-message">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">Et voi lähettää viestiä tälle käyttäjälle</p>
+                        </div>
+                    </div>
+                    <div class="p-sm-2" data-region="placeholder-container">
+                        <div class="d-flex">
+                            <div class="bg-pulse-grey w-100" style="height: 80px"></div>
+                            <div class="mx-2 mb-2 align-self-end bg-pulse-grey" style="height: 20px; width: 20px"></div>
+                        </div>                    </div>
+                    <div
+                        class="hidden position-absolute z-index-1"
+                        data-region="confirm-dialogue-container"
+                        style="top: -1px; bottom: 0; right: 0; left: 0; background: rgba(0,0,0,0.3);"
+                    ></div>
+                </div>                    <div data-region="view-overview" class="text-center">
+                        <a href="">
+                            Näytä kaikki
+                        </a>
+                    </div>
+            </div>
+        </div>
+
+</div>
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group" aria-label="COMP.SGN.100-2020-2021-2-TAU">
+            <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://moodle.tuni.fi/course/view.php?id=11427" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body font-weight-bold">COMP.SGN.100-2020-2021-2-TAU</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/user/index.php?id=11427" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-users fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Osallistujat</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/grade/report/index.php?id=11427" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Arvioinnit</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-0" data-key="94845" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Yleistä</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-1" data-key="94846" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">8. maaliskuuta - 14. maaliskuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-2" data-key="94847" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">15. maaliskuuta - 21. maaliskuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-3" data-key="94848" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">22. maaliskuuta - 28. maaliskuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-4" data-key="94849" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">29. maaliskuuta - 4. huhtikuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-5" data-key="152790" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">5. huhtikuuta - 11. huhtikuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-6" data-key="152791" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">12. huhtikuuta - 18. huhtikuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-7" data-key="152792" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">19. huhtikuuta - 25. huhtikuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=11427#section-8" data-key="178448" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="11427">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">26. huhtikuuta - 2. toukokuuta</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    </ul>
+                    </nav>
+                    <nav class="list-group mt-1" aria-label="Sivusto">
+                    <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Työpöytä</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Sivuston etusivu</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/calendar/view.php?view=month&amp;course=11427" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Kalenteri</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Yksityiset tiedostot</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="list-group-item " data-key="mycourses" data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body">Omat kurssini</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=20204" data-key="20204" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                            <div class="ml-1">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">DATA.ML.100-2021-2022-1-TAU</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=2867" data-key="2867" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                            <div class="ml-1">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">Turnitin (Mikko Huttunen)</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action  " href="https://moodle.tuni.fi/course/view.php?id=623" data-key="623" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                            <div class="ml-1">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body ">FYS-OPLAB</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="goto-top-link">
+        <a class="btn btn-light" role="button" href="#">
+            <i class="icon fa fa-arrow-up fa-fw "  title="Siirry ylös" aria-label="Siirry ylös"></i>
+        </a>
+    </div>
+    <footer id="page-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <div id="course-footer"></div>
+                    <div class="logininfo">Olet kirjautunut nimellä  <a href="https://moodle.tuni.fi/user/profile.php?id=15114" title="Näytä profiili">Samu Salko</a>. (<a href="https://moodle.tuni.fi/login/logout.php?sesskey=ZQnUqPMxpU">Kirjaudu ulos</a>)</div>
+                    </br>
+                    
+                    
+                    <div class="text_to_html"></div>
+                    <div class="tool_usertours-resettourcontainer"></div>
+                    <div class="homelink"><a href="https://moodle.tuni.fi/">Etusivu</a></div>
+                    <nav class="nav navbar-nav d-md-none" aria-label="Mukautettu valikko">
+                            <ul class="list-unstyled pt-3">
+                                                <li><a href="#" title="Kieli">Suomi ‎(fi)‎</a></li>
+                                            <li>
+                                                <ul class="list-unstyled ml-3">
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=de" title="Deutsch ‎(de)‎">Deutsch ‎(de)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=es" title="Español - Internacional ‎(es)‎">Español - Internacional ‎(es)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=sv_fi" title="Finlandssvenska ‎(sv_fi)‎">Finlandssvenska ‎(sv_fi)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=fi" title="Suomi ‎(fi)‎">Suomi ‎(fi)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=sv" title="Svenska ‎(sv)‎">Svenska ‎(sv)‎</a></li>
+                                                                    <li><a href="https://moodle.tuni.fi/course/view.php?id=11427&amp;lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a></li>
+                                                </ul>
+                                            </li>
+                            </ul>
+                    </nav>
+                    <div class="tool_dataprivacy"><a href="https://moodle.tuni.fi/admin/tool/dataprivacy/summary.php">Yhteenveto tietojen säilytyksestä</a></div><a href="https://download.moodle.org/mobile?version=2020061507&amp;lang=fi&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Hanki mobiilisovellus</a><div class="policiesfooter"><a href="https://moodle.tuni.fi/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Fmoodle.tuni.fi%2Fcourse%2Fview.php%3Fid%3D11427">Policies</a></div>
+                    <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.tuni.fi/lib/requirejs.php/1626319661/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/jquery/jquery-3.5.1.min',
+        jqueryui: 'https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://moodle.tuni.fi/lib/javascript.php/1626319661/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.tuni.fi/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('fi', {
+  "Play": "Toisto",
+  "Pause": "Tauko",
+  "Current Time": "Tämänhetkinen aika",
+  "Duration": "Kokonaisaika",
+  "Remaining Time": "Jäljellä oleva aika",
+  "Stream Type": "Lähetystyyppi",
+  "LIVE": "LIVE",
+  "Loaded": "Ladattu",
+  "Progress": "Edistyminen",
+  "Fullscreen": "Koko näyttö",
+  "Non-Fullscreen": "Koko näyttö pois",
+  "Mute": "Ääni pois",
+  "Unmute": "Ääni päällä",
+  "Playback Rate": "Toistonopeus",
+  "Subtitles": "Tekstitys",
+  "subtitles off": "Tekstitys pois",
+  "Captions": "Tekstitys",
+  "captions off": "Tekstitys pois",
+  "Chapters": "Kappaleet",
+  "You aborted the media playback": "Olet keskeyttänyt videotoiston.",
+  "A network error caused the media download to fail part-way.": "Verkkovirhe keskeytti videon latauksen.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Videon lataus ei onnistunut joko palvelin- tai verkkovirheestä tai väärästä formaatista johtuen.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Videon toisto keskeytyi, koska media on vaurioitunut tai käyttää käyttää toimintoja, joita selaimesi ei tue.",
+  "No compatible source was found for this media.": "Tälle videolle ei löytynyt yhteensopivaa lähdettä."
+});
+
+    });
+});;
+M.util.js_pending('theme_maisteriboost/hamburger'); require(['theme_maisteriboost/hamburger'], function(amd) {amd.init(); M.util.js_complete('theme_maisteriboost/hamburger');});;
+
+require([
+    'jquery',
+    'core_calendar/selectors',
+    'core_calendar/events',
+], function(
+    $,
+    CalendarSelectors,
+    CalendarEvents
+) {
+    var root = $('#month-upcoming-mini-61274969389e961274969235262');
+
+    $('body').on(CalendarEvents.filterChanged, function(e, data) {
+        M.util.js_pending("month-upcoming-mini-61274969389e961274969235262-filterChanged");
+
+        // A filter value has been changed.
+        // Find all matching cells in the popover data, and hide them.
+        var target = $("#month-upcoming-mini-61274969389e961274969235262").find(CalendarSelectors.eventType[data.type]);
+
+        var transitionPromise = $.Deferred();
+        if (data.hidden) {
+            transitionPromise.then(function() {
+                return target.slideUp('fast').promise();
+            });
+        } else {
+            transitionPromise.then(function() {
+                return target.slideDown('fast').promise();
+            });
+        }
+
+        transitionPromise.then(function() {
+            M.util.js_complete("month-upcoming-mini-61274969389e961274969235262-filterChanged");
+
+            return;
+        });
+
+        transitionPromise.resolve();
+    });
+});
+;
+
+require(['jquery', 'core_calendar/calendar_view'], function($, CalendarView) {
+    CalendarView.init($("#calendar-upcoming-block-61274969389e961274969235262"), 'upcoming');
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select61274969235265', [CustomEvents.events.accessibleChange]);
+    $('#single_select61274969235265').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f61274969235264').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-6127496971cf961274969235268');
+    Popover.init(toggle);
+});
+;
+
+require(['jquery', 'core_message/message_drawer'], function($, MessageDrawer) {
+    var root = $('#message-drawer-6127496975757612749692352621');
+    MessageDrawer.init(root, '6127496975757612749692352621', false);
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select612749692352623', [CustomEvents.events.accessibleChange]);
+    $('#single_select612749692352623').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f612749692352622').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(739541, [], true); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="https://moodle.tuni.fi/lib/javascript.php/1626319661/course/format/weeks/format.js"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Viimeksi muutettu","name":"Nimi","error":"Virhe","info":"Tiedot","yes":"Kyll\u00e4","no":"Ei","cancel":"Peruuta","confirm":"Vahvista","areyousure":"Oletko varma?","closebuttontitle":"Sulje","unknownerror":"Tuntematon virhe","file":"Tiedosto","url":"Verkko-osoite"},"repository":{"type":"Tyyppi","size":"Koko","invalidjson":"Virheellinen JSON-merkkijono","nofilesattached":"Ei liitettyj\u00e4 tiedostoja","filepicker":"Tiedostonvalitsin","logout":"Kirjaudu ulos","nofilesavailable":"Ei saatavilla olevia tiedostoja","norepositoriesavailable":"Valitettavasti yksik\u00e4\u00e4n nykyisist\u00e4 tiedostopankeistasi ei voi palauttaa tiedostoja halutussa muodossa.","fileexistsdialogheader":"Tiedosto on olemassa","fileexistsdialog_editor":"Samanniminen tiedosto on jo liitetty tekstiin jota muokkaat.","fileexistsdialog_filemanager":"Samanniminen tiedosto on jo liitetty","renameto":"Uudelleennime\u00e4 \"{$a}\"","referencesexist":"T\u00e4t\u00e4 tiedostoa k\u00e4ytet\u00e4\u00e4n l\u00e4hteen\u00e4 {$a} tiedostoviitteess\u00e4","select":"Valitse"},"admin":{"confirmdeletecomments":"Haluatko varmasti poistaa kommentit?","confirmation":"Vahvistus"},"completion":{"completion-alt-manual-y":"Suoritettu: {$a}. Valitse merkit\u00e4ksesi keskener\u00e4iseksi.","completion-alt-manual-n":"Ei suoritettu: {$a}. Valitse merkit\u00e4ksesi tehdyksi."},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"fi"});
+});
+ M.util.js_pending('random61274969235261'); Y.use('core_completion', function(Y) { M.core_completion.init(Y);  M.util.js_complete('random61274969235261'); });
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random612749692352624'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random612749692352624'); });
+})();
+//]]>
+</script>
+
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3 d-inline" id="footer-left-content">
+                            <a href="https://moodle.tuni.fi">
+                            <img class="site-logo-footer float-right"
+                            src="https://moodle.tuni.fi/theme/image.php/maisteriboostsubtheme/theme/1629705365/logo_footer"
+                            alt="Tampereen yliopisto"
+                            title="Tampereen yliopisto"></a>
+                </div>
+            </div>
+            <div id="social-icons-container">
+</div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
